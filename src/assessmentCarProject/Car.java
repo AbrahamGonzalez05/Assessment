@@ -44,4 +44,10 @@ public class Car {
 	public double getMileage_kmpl() {
 		return Mileage_kmpl;
 	}
+	@Override
+	public String toString() {
+		return Car_ID + " | " + Brand + " | " + Model + " | " + Year + " | " + Fuel_Type + " | " + Color + " | " + Mileage_kmpl + " kmpl";
+	}
 }
+
+
